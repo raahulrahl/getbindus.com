@@ -1,42 +1,73 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="$lang$" xml:lang="$lang$"$if(dir)$ dir="$dir$"$endif$ prefix="og: https://ogp.me/ns#">
 <head>
   <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
   
+  <!-- Additional SEO Meta Tags -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+  <meta name="bingbot" content="index, follow" />
+  <meta name="language" content="English" />
+  <meta name="revisit-after" content="7 days" />
+  <meta name="rating" content="General" />
+  
+  <!-- Theme Color for Mobile Browsers -->
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
+  
   <!-- SEO Meta Tags -->
-  <meta name="description" content="Saptha.me - Building the Internet of Agents. Connect AI agents to share context, collaborate, and solve complex problems together." />
-  <meta name="keywords" content="AI agents, multi-agent systems, agent orchestration, Bindu, A2A protocol, agent collaboration, distributed AI" />
+  <meta name="description" content="SapthaMe (Saptha.me) - A2A Protocol for the Internet of Agents. Agent-to-agent communication, multi-agent orchestration with Bindu framework." />
+  <meta name="keywords" content="A2A, A2A protocol, agent-to-agent, agent-to-agent communication, A2A framework, AP2, AP2 protocol, Saptha, SapthaMe, Saptha.me, sapthame, AI agents, multi-agent systems, agent orchestration, Bindu, agent collaboration, distributed AI, agentic AI, autonomous agents" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://saptha.me/" />
-  <meta property="og:title" content="Saptha.me - Building the Internet of Agents" />
-  <meta property="og:description" content="Connect AI agents to share context, collaborate, and solve complex problems together." />
+  <meta property="og:site_name" content="SapthaMe" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:title" content="SapthaMe - A2A Protocol for the Internet of Agents" />
+  <meta property="og:description" content="Agent-to-agent communication protocol. Build multi-agent systems with Bindu framework and A2A/AP2 protocols." />
   <meta property="og:image" content="https://saptha.me/og-image.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:alt" content="Saptha.me - Internet of Agents" />
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
   <meta property="twitter:url" content="https://saptha.me/" />
-  <meta property="twitter:title" content="Saptha.me - Building the Internet of Agents" />
-  <meta property="twitter:description" content="Connect AI agents to share context, collaborate, and solve complex problems together." />
+  <meta property="twitter:title" content="SapthaMe - A2A Protocol for the Internet of Agents" />
+  <meta property="twitter:description" content="Agent-to-agent communication protocol. Build multi-agent systems with Bindu framework and A2A/AP2 protocols." />
   <meta property="twitter:image" content="https://saptha.me/og-image.png" />
   <meta name="twitter:site" content="@saptha_me" />
   
   <!-- Canonical URL -->
   <link rel="canonical" href="https://saptha.me/" />
   
+  <!-- Resource Hints for Performance -->
+  <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin />
+  <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://fonts.cdnfonts.com" />
+  
   <!-- Favicon -->
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌻</text></svg>" />
   
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-GV5P8X1CVK"></script>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-NV4DBJ27');</script>
+  <!-- End Google Tag Manager -->
+  
+  <!-- Clarity tracking code for https://saptha.me -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'G-GV5P8X1CVK');
+    (function(c,l,a,r,i,t,y){
+      c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
+      t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i+"?ref=bwt";
+      y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
+    })(window, document, "clarity", "script", "u0uy5ql17h");
   </script>
 $for(author-meta)$
   <meta name="author" content="$author-meta$" />
@@ -49,6 +80,12 @@ $if(keywords)$
 $endif$
 $if(description-meta)$
   <meta name="description" content="$description-meta$" />
+  <meta property="og:description" content="$description-meta$" />
+  <meta property="twitter:description" content="$description-meta$" />
+$endif$
+$if(page-image)$
+  <meta property="og:image" content="$page-image$" />
+  <meta property="twitter:image" content="$page-image$" />
 $endif$
   <title>$if(title-prefix)$$title-prefix$ – $endif$$pagetitle$</title>
 $for(css)$
@@ -60,8 +97,53 @@ $endfor$
 $if(math)$
   $math$
 $endif$
+  
+  <!-- Structured Data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Saptha.me",
+    "alternateName": ["SapthaMe", "Saptha", "sapthame"],
+    "description": "A2A Protocol for the Internet of Agents. Building agent-to-agent communication with Bindu.",
+    "url": "https://saptha.me/",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Saptha",
+      "alternateName": "SapthaMe",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://saptha.me/og-image.png"
+      }
+    }
+  }
+  </script>
+$if(title)$
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "TechArticle",
+    "headline": "$title$",
+    "description": "$if(description-meta)$$description-meta$$else$Saptha.me documentation$endif$",
+    $if(author)$
+    "author": {
+      "@type": "Person",
+      "name": "$author$"
+      $if(author-url)$,"url": "$author-url$"$endif$
+    },
+    $endif$
+    $if(date-meta)$"datePublished": "$date-meta$",$endif$
+    "inLanguage": "en-US",
+    "license": "https://www.apache.org/licenses/LICENSE-2.0"
+  }
+  </script>
+$endif$
 </head>
 <body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NV4DBJ27"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
 $for(include-before)$
 $include-before$
 $endfor$
