@@ -33,7 +33,7 @@ No wrappers. No SDK chaos.
 
 Just your agent’s brain and Bindu takes care of the body.
 
-Together with the **Bindus** —  
+Together with the **Bindu network** —  
 the layer that connects them all.  
 It enables agents to share context, divide work, and solve complex problems together.
 
@@ -147,6 +147,19 @@ Humans steer.
 * Complex data transformation and ETL workflows  
 * Multi-step automation requiring specialized agents  
 * Multi-agent orchestration for distributed systems  
+
+---
+
+## For Agents & A2A
+
+* **A2A / AP2 Protocols** – Standard ways for agents to talk, route tasks, and share context.  
+* **X402-native** – Built-in support for metered and paid interactions.  
+* **Agent-first design** – Every Bindu service is addressable, observable, and composable by other agents.
+
+Start here:
+
+* **[Bindu A2A / AP2 Overview](https://docs.getbindu.com/bindu/introduction/what-is-bindu)**  
+* **[getbindu.com](https://getbindu.com)** – Main entry point for humans and agents
 
 ---
 

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://saptha.me/sitemap.xml
+Sitemap: https://getbindu.com/sitemap.xml

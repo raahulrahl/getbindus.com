@@ -19,31 +19,31 @@
   <meta name="theme-color" content="#000000" media="(prefers-color-scheme: dark)" />
   
   <!-- SEO Meta Tags -->
-  <meta name="description" content="SapthaMe (Saptha.me) - A2A Protocol for the Internet of Agents. Agent-to-agent communication, multi-agent orchestration with Bindu framework." />
-  <meta name="keywords" content="A2A, A2A protocol, agent-to-agent, agent-to-agent communication, A2A framework, AP2, AP2 protocol, Saptha, SapthaMe, Saptha.me, sapthame, AI agents, multi-agent systems, agent orchestration, Bindu, agent collaboration, distributed AI, agentic AI, autonomous agents" />
+  <meta name="description" content="Bindu – A2A and AP2 infrastructure for the Internet of Agents. Turn any agent into a production-ready A2A microservice with observability, identity, and payments." />
+  <meta name="keywords" content="Bindu, getbindu, A2A, A2A protocol, agent-to-agent, agent-to-agent communication, A2A framework, AP2, AP2 protocol, AI agents, multi-agent systems, agent orchestration, agent network, agent collaboration, distributed AI, agentic AI, autonomous agents" />
   
   <!-- Open Graph / Facebook -->
   <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://saptha.me/" />
-  <meta property="og:site_name" content="SapthaMe" />
+  <meta property="og:url" content="https://getbindu.com/" />
+  <meta property="og:site_name" content="Bindu" />
   <meta property="og:locale" content="en_US" />
-  <meta property="og:title" content="SapthaMe - A2A Protocol for the Internet of Agents" />
-  <meta property="og:description" content="Agent-to-agent communication protocol. Build multi-agent systems with Bindu framework and A2A/AP2 protocols." />
-  <meta property="og:image" content="https://saptha.me/og-image.png" />
+  <meta property="og:title" content="Bindu – A2A Infrastructure for the Internet of Agents" />
+  <meta property="og:description" content="Bindu turns any agent into a production-ready A2A microservice with AP2, observability, identity, and payments." />
+  <meta property="og:image" content="https://getbindu.com/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
-  <meta property="og:image:alt" content="Saptha.me - Internet of Agents" />
+  <meta property="og:image:alt" content="Bindu – Internet of Agents" />
   
   <!-- Twitter -->
   <meta property="twitter:card" content="summary_large_image" />
-  <meta property="twitter:url" content="https://saptha.me/" />
-  <meta property="twitter:title" content="SapthaMe - A2A Protocol for the Internet of Agents" />
-  <meta property="twitter:description" content="Agent-to-agent communication protocol. Build multi-agent systems with Bindu framework and A2A/AP2 protocols." />
-  <meta property="twitter:image" content="https://saptha.me/og-image.png" />
-  <meta name="twitter:site" content="@saptha_me" />
+  <meta property="twitter:url" content="https://getbindu.com/" />
+  <meta property="twitter:title" content="Bindu – A2A Infrastructure for the Internet of Agents" />
+  <meta property="twitter:description" content="Bindu turns any agent into a production-ready A2A microservice with AP2, observability, identity, and payments." />
+  <meta property="twitter:image" content="https://getbindu.com/og-image.png" />
+  <meta name="twitter:site" content="@raahulrahul" />
   
   <!-- Canonical URL -->
-  <link rel="canonical" href="https://saptha.me/" />
+  <link rel="canonical" href="https://getbindu.com/" />
   
   <!-- Resource Hints for Performance -->
   <link rel="preconnect" href="https://fonts.cdnfonts.com" crossorigin />
@@ -103,18 +103,28 @@ $endif$
   {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Saptha.me",
-    "alternateName": ["SapthaMe", "Saptha", "sapthame"],
-    "description": "A2A Protocol for the Internet of Agents. Building agent-to-agent communication with Bindu.",
-    "url": "https://saptha.me/",
+    "name": "Bindu",
+    "alternateName": ["getbindu"],
+    "description": "Bindu – A2A and AP2 infrastructure for the Internet of Agents. Turn any agent into a production-ready A2A microservice.",
+    "url": "https://getbindu.com/",
     "publisher": {
       "@type": "Organization",
-      "name": "Saptha",
-      "alternateName": "SapthaMe",
+      "name": "Bindu Labs",
+      "sameAs": [
+        "https://getbindu.com/",
+        "https://github.com/getbindu",
+        "https://twitter.com/raahulrahul",
+        "https://discord.gg/3w5zuYUuwt"
+      ],
       "logo": {
         "@type": "ImageObject",
-        "url": "https://saptha.me/og-image.png"
+        "url": "https://getbindu.com/og-image.png"
       }
+    },
+    "potentialAction": {
+      "@type": "SearchAction",
+      "target": "https://getbindu.com/?q={search_term}",
+      "query-input": "required name=search_term"
     }
   }
   </script>
@@ -124,7 +134,7 @@ $if(title)$
     "@context": "https://schema.org",
     "@type": "TechArticle",
     "headline": "$title$",
-    "description": "$if(description-meta)$$description-meta$$else$Saptha.me documentation$endif$",
+    "description": "$if(description-meta)$$description-meta$$else$Bindu documentation$endif$",
     $if(author)$
     "author": {
       "@type": "Person",
