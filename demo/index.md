@@ -1,8 +1,8 @@
 ---
-title: Saptha.me 🌻
+title: Bindu 🌻
 subtitle: Building the Internet of Agents
-author: Saptha.me Team
-author-url: "https://github.com/Saptha-me"
+author: Bindu Team
+author-url: "https://github.com/getbindu/"
 lang: en
 toc-title: Contents
 ---
@@ -33,7 +33,7 @@ No wrappers. No SDK chaos.
 
 Just your agent’s brain and Bindu takes care of the body.
 
-And now comes **Saptha.me** —  
+Together with the **Bindus** —  
 the layer that connects them all.  
 It enables agents to share context, divide work, and solve complex problems together.
 
@@ -59,7 +59,7 @@ We’re doing the same for AI agents.
 
 ---
 
-## Our Products
+## What Bindu Does
 
 ### Bindu: A wrapper that turns your agent into a production-ready service.
 
@@ -93,7 +93,7 @@ bindufy(agent, config, handler)
 
 <hr>
 
-### Saptha.me: A Decentralized Multi-Agent Orchestration that researches, plans, and implements.
+### Bindu Orchestration: Decentralized multi-agent workflows that research, plan, and implement.
 
 The **Three-Body Pattern**: *Research → Plan → Implement*
 
@@ -126,7 +126,7 @@ The **Three-Body Pattern**: *Research → Plan → Implement*
 Single agents lose context, deliver shallow insights, and can’t access distributed data across systems or geographies.  
 
 **The Solution**  
-Saptha orchestrates *specialized agents* for each phase:
+Bindu orchestrates *specialized agents* for each phase:
 
 1. **Research Agent** gathers information → *You review*  
 2. **Planning Agent** creates strategy → *You approve*  
@@ -134,9 +134,9 @@ Saptha orchestrates *specialized agents* for each phase:
 
 Agents think.  
 Humans steer.  
-**Saptha** keeps the context alive.
+**Bindu** keeps the context alive.
 
-[View Documentation →](https://docs.saptha.me/sapthame/introduction/overview)
+[View Documentation →](https://docs.getbindu.com/bindu/introduction/what-is-bindu)
 
 ---
 
@@ -161,8 +161,9 @@ Humans steer.
 ## Get Started
 
 <nav>
-    <button onclick="window.location.href='https://docs.saptha.me'">Documentation</button>
-    <button onclick="window.location.href='https://github.com/Saptha-me/Bindu'">GitHub</button>
+    <button onclick="window.location.href='https://getbindu.com'">Website</button>
+    <button onclick="window.location.href='https://docs.getbindu.com'">Documentation</button>
+    <button onclick="window.location.href='https://github.com/getbindu/Bindu'">GitHub</button>
     <button onclick="window.location.href='https://discord.gg/3w5zuYUuwt'">Discord</button>
 </nav>
 
@@ -170,10 +171,10 @@ Humans steer.
 
 ## Join Us
 
-* **[GitHub](https://github.com/Saptha-me)** – Watch our progress  
+* **[GitHub](https://github.com/getbindu)** – Watch our progress  
 * **[Discord](https://discord.gg/3w5zuYUuwt)** – Talk with other builders  
-* **[Twitter](https://twitter.com/saptha_me)** – Follow updates  
-* **[Email](mailto:raahul@saptha.me)** – Partnerships and collaborations  
+* **[Twitter](https://twitter.com/raahulrahul)** – Follow updates  
+* **[Email](mailto:raahul@getbindu.com)** – Partnerships and collaborations  
 
 <figure>
 <pre>
@@ -210,7 +211,7 @@ The tiny dot at the center is **Bindu**, the origin point of the Internet of Age
 We’re building the **operating layer** for the Internet of Agents where intelligence connects, collaborates, and composes.
 
 Just as the internet connected computers and reshaped what was possible,  
-**Saptha.me** connects agents so they can share context, learn from each other,  
+**Bindu** connects agents so they can share context, learn from each other,  
 and unlock capabilities no single agent could achieve alone.
 
 This isn’t magic.  
@@ -219,6 +220,6 @@ It’s **infrastructure, protocols, and patterns** that actually work.
 Join us and help build the Internet of Agents.
 
 > The universe began with a dot.  
-> The Internet of Agents begins with **Saptha.me**.
+> The Internet of Agents begins with **Bindu**.
 
 ---
