@@ -159,22 +159,20 @@ $include-before$
 $endfor$
 <table class="header">
   <tr>
-    <td colspan="2" rowspan="2" class="width-auto">
+    <td colspan="2" rowspan="4" class="width-auto">
       <h1 class="title">$title$</h1>
       <span class="subtitle">$subtitle$</span>
     </td>
-    <th>Version</th>
-    <td class="width-min">$version$</td>
+    <td class="width-min">$if(docs-url)$<a href="$docs-url$">Docs</a>$endif$</td>
   </tr>
   <tr>
-    <th>Updated</th>
-    <td class="width-min"><time style="white-space: pre;">$date$</time></td>
+    <td class="width-min"><a href="$author-url$">Github</a></td>
   </tr>
   <tr>
-    <th class="width-min">Author</th>
-    <td class="width-auto"><a href="$author-url$"><cite>$author$</cite></a></td>
-    <th class="width-min">License</th>
-    <td>Apache 2.0</td>
+    <td class="width-min">$if(directory-url)$<a href="$directory-url$">Directory</a>$endif$</td>
+  </tr>
+  <tr>
+    <td class="width-min">$if(discord-url)$<a href="$discord-url$">Discord</a>$endif$</td>
   </tr>
 </table>
 <label class="debug-toggle-label"><input type="checkbox" class="debug-toggle" checked /> Debug mode</label>

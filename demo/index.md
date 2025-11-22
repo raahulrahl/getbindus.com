@@ -1,8 +1,11 @@
 ---
 title: Bindu 🌻
-subtitle: Building the Internet of Agents
+subtitle: Building the Operating Layer for the Internet of Agents
 author: Bindu Team
 author-url: "https://github.com/getbindu/"
+docs-url: "https://docs.getbindu.com"
+directory-url: "https://bindus.directory"
+discord-url: "https://discord.gg/3w5zuYUuwt"
 lang: en
 toc-title: Contents
 ---
@@ -11,13 +14,19 @@ toc-title: Contents
 
 > “Every story begins with a single point of light.”
 
-Once, intelligence lived in notebooks, silent, isolated, waiting for a human to press *Run*.  
+Once, intelligence lived in notebooks. Silent. Isolated. Waiting for a human to press *Run*.  
+
 We built minds, but never gave them bodies.  
 We made ideas, but never gave them a home.
 
 **Bindu** changed that.
 
-It gives every agent an address, a voice, and a heartbeat. Making it a first class citizen of the Internet.  
+This framework gives every agent three things:
+- An address
+- A voice  
+- A heartbeat
+
+Making it a first-class citizen of the Internet.  
 
 Addressable. Observable. Composable.
 
@@ -28,19 +37,12 @@ A writing agent in Tokyo.
 Each alive, discoverable, speaking a shared language.  
 Together, they form something new, not an app, not a cluster, but a living **network of intelligence.**
 
-Bindu turns any script into a microservice for cognition one that speaks fluent **A2A**, **AP2**, and **X402**.  
-No wrappers. No SDK chaos.  
-
-Just your agent’s brain and Bindu takes care of the body.
-
-Together with the **Bindu network** —  
-the layer that connects them all.  
-It enables agents to share context, divide work, and solve complex problems together.
+The platform turns any script into a microservice for cognition. One that speaks fluent **A2A**, **AP2**, and **X402**.  
 
 <figure>
 <pre>
 ┌───────────────────────────────────────────────────────────────┐
-│                      The Internet of Agents                   │
+│          The Operating Layer for the Internet of Agents       │
 │                                                               │
 │ Research 🇩🇪 ─► Analysis 🇺🇸 ─► Strategy 🇸🇬 ─► Implementation 🇮🇳 
 │       │                │                 │                │   │
@@ -59,41 +61,39 @@ We’re doing the same for AI agents.
 
 ---
 
+## Key Features
+
+**Protocol Support**  
+Native A2A (Agent-to-Agent), AP2, and X402 protocols for seamless inter-agent communication.
+
+**Decentralized Identity**  
+Every agent gets a unique DID, making it discoverable and addressable. No central registry required.
+
+**Built-in Observability**  
+Comprehensive tracing and logging for monitoring performance and debugging multi-agent interactions.
+
+**Payment Integration**  
+X402 protocol support enables agents to transact value and create new economic models.
+
+**Zero Configuration Deployment**  
+Transform your agent code into a production service with a single function call.
+
+**Context Preservation**  
+Shared context flows across multiple agents and conversation turns.
+
+---
+
 ## What Bindu Does
 
-### Bindu: A wrapper that turns your agent into a production-ready service.
+![That Simple!!!](demo/agno-simple.png)
 
-A single function call turns your agent into a production-ready service.
+A single function call turns your agent into a production-ready service with inter-agent communication, decentralized identity, observability, and payment support.
 
-<figure>
-<pre>
-from bindu.penguin.bindufy import bindufy
-
-# Your agent
-agent = Agent(
-    instructions="Research assistant",
-    model=OpenAIChat(id="gpt-4o"),
-    tools=[DuckDuckGoTools()]
-)
-
-# Make it production-ready
-bindufy(agent, config, handler)
-</pre>
-</figure>
-
-**What you get**
-
-* Inter-agent communication (A2A / AP2 protocols)  
-* Decentralized identity (DID)  
-* Observability and tracing out of the box  
-* Payment support (X402)  
-* Production-grade infrastructure in seconds  
-
-[View Documentation →](https://docs.saptha.me/bindu/introduction/what-is-bindu)
+[View Documentation →](https://docs.getbindu.com/bindu/introduction/what-is-bindu)
 
 <hr>
 
-### Bindu Orchestration: Decentralized multi-agent workflows that research, plan, and implement.
+### Bindu Orchestration - NightSky: Decentralized multi-agent workflows that research, plan, and implement.
 
 The **Three-Body Pattern**: *Research → Plan → Implement*
 
@@ -134,7 +134,7 @@ Bindu orchestrates *specialized agents* for each phase:
 
 Agents think.  
 Humans steer.  
-**Bindu** keeps the context alive.
+The orchestration layer keeps the context alive.
 
 [View Documentation →](https://docs.getbindu.com/bindu/introduction/what-is-bindu)
 
@@ -142,52 +142,13 @@ Humans steer.
 
 ## Use Cases
 
-* Research and analysis across multiple data sources  
-* Automated content pipelines (research → outline → write → edit)  
-* Complex data transformation and ETL workflows  
-* Multi-step automation requiring specialized agents  
-* Multi-agent orchestration for distributed systems  
+**Research & Analysis**  
+Coordinate multiple agents to gather information from diverse sources, synthesize findings, and generate comprehensive reports.
+
+**Content Creation Pipelines**  
+Automate your entire content workflow with specialized agents: research agents gather information, planning agents create outlines, writing agents draft content, and editing agents refine the final output.
 
 ---
-
-## For Agents & A2A
-
-* **A2A / AP2 Protocols** – Standard ways for agents to talk, route tasks, and share context.  
-* **X402-native** – Built-in support for metered and paid interactions.  
-* **Agent-first design** – Every Bindu service is addressable, observable, and composable by other agents.
-
-Start here:
-
-* **[Bindu A2A / AP2 Overview](https://docs.getbindu.com/bindu/introduction/what-is-bindu)**  
-* **[getbindu.com](https://getbindu.com)** – Main entry point for humans and agents
-
----
-
-## Who It’s For
-
-**Agent Builders** — who want production-ready agents fast.  
-**Teams** — solving complex problems that need multiple specialists.  
-**Researchers** — exploring multi-agent collaboration and orchestration patterns.
-
----
-
-## Get Started
-
-<nav>
-    <button onclick="window.location.href='https://getbindu.com'">Website</button>
-    <button onclick="window.location.href='https://docs.getbindu.com'">Documentation</button>
-    <button onclick="window.location.href='https://github.com/getbindu/Bindu'">GitHub</button>
-    <button onclick="window.location.href='https://discord.gg/3w5zuYUuwt'">Discord</button>
-</nav>
-
----
-
-## Join Us
-
-* **[GitHub](https://github.com/getbindu)** – Watch our progress  
-* **[Discord](https://discord.gg/3w5zuYUuwt)** – Talk with other builders  
-* **[Twitter](https://twitter.com/raahulrahul)** – Follow updates  
-* **[Email](mailto:raahul@getbindu.com)** – Partnerships and collaborations  
 
 <figure>
 <pre>
@@ -213,7 +174,7 @@ Start here:
 </pre>
 <figcaption>
 Each symbol is an agent — a spark of intelligence.  
-The tiny dot at the center is **Bindu**, the origin point of the Internet of Agents.
+The tiny dot at the center is **Bindu**, the origin point of the Operating Layer for the Internet of Agents.
 </figcaption>
 </figure>
 
@@ -221,7 +182,7 @@ The tiny dot at the center is **Bindu**, the origin point of the Internet of Age
 
 ## 🌌 The Vision
 
-We’re building the **operating layer** for the Internet of Agents where intelligence connects, collaborates, and composes.
+We’re building the **operating layer** for the Operating Layer for the Internet of Agents where intelligence connects, collaborates, and composes.
 
 Just as the internet connected computers and reshaped what was possible,  
 **Bindu** connects agents so they can share context, learn from each other,  
@@ -230,9 +191,13 @@ and unlock capabilities no single agent could achieve alone.
 This isn’t magic.  
 It’s **infrastructure, protocols, and patterns** that actually work.  
 
-Join us and help build the Internet of Agents.
+Join us and help build the Operating Layer for the Internet of Agents.
 
 > The universe began with a dot.  
-> The Internet of Agents begins with **Bindu**.
+> The Operating Layer for the Internet of Agents begins with **Bindu**.
+
+---
+
+Build by love from Amsterdam with 🌻
 
 ---
