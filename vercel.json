@@ -3,16 +3,6 @@
   "outputDirectory": ".",
   "installCommand": "echo 'No install needed'",
   "framework": null,
-  "routes": [
-    {
-      "src": "/robots.txt",
-      "dest": "/robots.txt"
-    },
-    {
-      "src": "/sitemap.xml",
-      "dest": "/sitemap.xml"
-    }
-  ],
   "headers": [
     {
       "source": "/(.*)",
